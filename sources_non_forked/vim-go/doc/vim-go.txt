@@ -1112,11 +1112,19 @@ used >
 Use this option to add additional options to the |'g:go_fmt_command'|. It's
 value type can be either a string or a dictionary. This is due backwards
 compatibility. The string version will be removed in the future so please use
+<<<<<<< HEAD
 the dictionary version. Default is empty.
 >
   let g:go_fmt_options = ''
 
   or
+=======
+the dictionary version. Default is empty. 
+>
+  let g:go_fmt_options = ''
+
+  or 
+>>>>>>> 0e93c3fa648368f4b8ffe9a235a774c4121098e5
 
   let g:go_fmt_options = {}
 <
